@@ -1,45 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Home Page</Title></title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet"
-
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    
-   <!-- Links -->
-  <ul class="navbar-nav">
-    <li class="nav-item"><a class="nav-link" href="Comparison">Comparison</a>
-    </li>
-    <li class="nav-item"><a class="nav-link" href="Data">Data</a>
-    </li>
-    <li style="float:left"><a class="nav-link" href="Latitude">Latitude</a>
-    </li>
-    
-    <!-- Dropdown -->
-    <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn">Plots</a>
-      <div class="dropdown-content">
-        <a href="#">Max Temperature</a>
-        <a href="#">Humidity</a>
-        <a href="#">Cloudiness</a>
-        <a href="#">Wind Speed</a>
-      </div>
-    </li>
-      
-    </ul>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</nav>
-
+  <title>Comparisons</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Latitude</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Max Temperature.html">Max Temperature</a></li>
+          <li><a href="#">Humidity</a></li>
+          <li><a href="#">Cloudiness</a></li>
+          <li><a href="#">Wind Speed</a></li>
+        </ul>
+      </li>
+      <li><a href="comparisons.html">Comparisons</a></li>
+      <li><a href="data.html">Data</a></li>
+    </ul>
+  </div>
+</nav>
+
+<h1>Summary: Latitude vs. X</h1>
+<main class="container">
+  <section id ="mainp">
+    <section id =figure>
+      <h2 id= "gr-name">photo</h2>  
+      <a href="default.asp"><img class="img-responsive" img id =main-graph src="/assets/images/Fig1" alt="graph" width="460" height="345"> </a>
+    </section>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ut justo laoreet consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc dui neque, malesuada egestas aliquet ac, commodo in magna. Etiam mollis odio at mi maximus hendrerit. Integer aliquam id lectus nec hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris rhoncus eget nulla in ornare. Maecenas massa nibh, commodo non condimentum eu, congue tempus neque. Donec neque mi, ullamcorper eget fringilla et, iaculis vitae tortor. Curabitur vel nunc vel mi lobortis ornare ut non nulla. Etiam ornare libero ac suscipit aliquam. Nunc venenatis felis sit amet velit vehicula interdum. Vivamus iaculis condimentum nulla vitae dapibus.</p>
+  </section>
+  
+  <div class="sideright">
+
+    <h2>links</h2>
     
-<h1>Summary</h1>
-<p>About<br>
-Weather</p>
-<img src="bball.jpg" alt="baseball">
+    <p> Temp</p>
+    <p> Temp</p>
+    <p> Temp</p>
+    <p> Temp</p>
+    
+    </div>
+  <aside id="visualization">
+    <h2>Visualization</h2>
+    <div>
+     <a href="default.asp"> <img class =imagesidebar src="assets/images/Fig1.png"></a>
+    </div>
 
-
+    
+    <ul>
+      <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+      <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+      <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+    </ul>
+  </aside>
+</main>
 </body>
 </html>
