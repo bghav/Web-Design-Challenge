@@ -57,9 +57,14 @@ left: 10px;
   background-color: white;
 }
 
+.col-md-6{
+  background-color: white;
+  margin: auto;
+  
+}
 .main-graph {
-  width: 300px;
-  height: 250px;
+  width: 150px;
+  height: 100px;
   margin-right: 20px;
   z-index: 1;
 }
@@ -77,8 +82,30 @@ left: 10px;
   color: white;
 }
 
+.fig1{
+  width:150px;
+  bottom: 10px;
+  left: 70px;
+}
 
+.fig2{
+  width:150px;
+  bottom: 10px;
+  right: 70px;
+  
+}
 
+.fig3{
+  width:150px;
+  bottom: 10px;
+  left: 70px;
+}
+
+.fig4{
+  width:150px;
+  bottom: 10px;
+  right: 70px;
+}
 
 
 
