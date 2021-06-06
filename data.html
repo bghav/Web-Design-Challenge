@@ -10,25 +10,34 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Latitude</a>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="index.html">Latitude</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#"></a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="MaxTemperature.html">Max Temperature</a></li>
+            <li><a href="Humidity.html">Humidity</a></li>
+            <li><a href="Cloudiness.html">Cloudiness</a></li>
+            <li><a href="WindSpeed.html">Wind Speed</a></li>
+          </ul>
+        </li>
+        <li><a href="comparisons.html">Comparisons</a></li>
+        <li><a href="data.html">Data</a></li>
+      </ul>
     </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="MaxTemperature.html">Max Temperature</a></li>
-          <li><a href="Humidity.html">Humidity</a></li>
-          <li><a href="Cloudiness.html">Cloudiness</a></li>
-          <li><a href="WindSpeed.html">Wind Speed</a></li>
-        </ul>
-      </li>
-      <li><a href="comparisons.html">Comparisons</a></li>
-      <li><a href="data.html">Data</a></li>
-    </ul>
-  </div>
-</nav>
+    </div>
+  </nav>
+    
 <div class="containers">
   <h4>Table</h4>
   <p>The .table-responsive class creates a responsive table which will scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:</p>                                                                                      
