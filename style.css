@@ -16,33 +16,46 @@ h1 {
   color:rgb(56, 236, 176);
 }
 
+h2 {
+  color:rgb(56, 236, 176);
+  background-color: white;
+}
+
+p {
+  color:rgb(56, 236, 176);
+  font-size: 16px;
+  text-align: left;
+  text-indent: 10px;
+}
+/*Selecting elements by class*/
 .lead{
+  color: #000;
   font-size: 20px;
   text-align: left;
 }
 
-/*Selecting elements by class*/
 .imagesidebar{
-width:150px;
+width:160px;
 top: 10px;
 left: 10px;
 }
+
 .imagesidebarh{
-  width:150px;
+  width:160px;
   bottom: 10px;
   left: 70px;
   z-index: 3;
   }
 
 .imagesidebarc{
-  width:150px;
+  width: 160px;
   top: 10px;
   left: 130px;
   z-index: 2;
   }
 
   .imagesidebarw{
-  width:150px;
+  width:160px;
   bottom: 10px;
   left: 190px;
   z-index: 1;
@@ -53,7 +66,6 @@ left: 10px;
 }
 
 .col-md-4{
-  position: static;
   background-color: white;
 }
 
@@ -63,8 +75,9 @@ left: 10px;
   
 }
 .main-graph {
-  width: 150px;
-  height: 100px;
+  float: left;
+  width: 400px;
+  height: 300px;
   margin-right: 20px;
   z-index: 1;
 }
@@ -83,26 +96,26 @@ left: 10px;
 }
 
 .fig1{
-  width:150px;
+  width:400px;
   bottom: 10px;
-  left: 70px;
+  right: 70px;
 }
 
 .fig2{
-  width:150px;
+  width:400px;
   bottom: 10px;
   right: 70px;
   
 }
 
 .fig3{
-  width:150px;
+  width:400px;
   bottom: 10px;
-  left: 70px;
+  right: 70px;
 }
 
 .fig4{
-  width:150px;
+  width:400px;
   bottom: 10px;
   right: 70px;
 }
